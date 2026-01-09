@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    
+}
+.main{
+    text-align: start;
+    margin-left: 50px;
+    display: flex;
+    
+    
+}
+p{
+    font-size: 20px;
+     color: rgba(81, 79, 79, 0.541); 
+}
+h5{
+      font-size: 20px;
+        color: rgba(71, 70, 70, 0.699); 
+}
+h3{
+    color: rgb(41, 41, 41);
+    margin-left: 20px;
+    font-size: 30px;
+}
+li{
+    color: rgb(100, 98, 98);
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.second-div{
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+    margin-left: 65px;
+}
+
+.second-div2{
+    border-radius: 15px;
+    background-color: white;
+    width: 650px;
+    margin-left: 60px;
+}
+
+img{
+    border-radius: 20px;
+margin-top: 50px;
+    width: 1020px;
+    height: 300px;
+
+}
