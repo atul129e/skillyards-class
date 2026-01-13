@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 177, 183);
+    font-family: sans-serif;
+    margin-top: 100px;
+
+}
+
+.container
+{
+
+    border-radius: 20px;
+    background-color: rgb(22, 177, 183);
+    box-shadow: 0 20px 200px 20px rgb(69, 67, 67);
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border:1px solid whitesmoke;
+}
+.m-name{
+    display:flex;
+    justify-content: space-between;
+    
+}
+button{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(33, 197, 203);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+button:hover{
+     background-color: rgba(0, 255, 255, 0.696);
+border-radius: 5px;
+cursor: pointer;
+}
+h3{
+    font-size: 30px;
+    color: white;
+}
+.week{
+    
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    color: rgb(212, 232, 232);
+    font-size: 20px;
+}
+
+.day{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    
+}
+.day p{
+    text-align: center;
+    color: white;
+    height: 23.03;
+    width: 26.69px;
+}
+.day p:hover{
+background-color: rgba(0, 255, 255, 0.696);
+border-radius: 5px;
+cursor: pointer;
+}
+#thir{
+    color: black;
+    background-color: aliceblue;
+    width: 27px;
+    border-radius: 5px;
+    
+}
+#thir:hover{
+    background-color: rgba(0, 255, 255, 0.696);
+    
+border-radius: 5px;
+cursor: pointer;
+}
+
+p:hover{
+    transform: translateY(-10px);
+}
