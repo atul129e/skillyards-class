@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: linear-gradient(145deg, blue,  rgb(168, 65, 65));   
+ font-family:'Times New Roman', Times, serif ;
+ height: 100vh;
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    max-width: 700px;
+ 
+}
+h1{
+    text-align: center;
+    color:wheat;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+.faq-item{
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.7);
+}
+input{
+    display: none;
+}
+
+.faq-question{
+        display: block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+color: #333;
+padding: 20px;
+position: relative;
+}
+
+
+.faq-question:hover{
+background: rgba(104, 125, 143, 0.263);
+}
+
+.faq-question::after{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.rem;
+    color: rgb(89, 89, 203);
+    transition: transform 0.3s;
+    
+
+}
+
+
+.faq-answer{
+    background-color:rgba(156, 160, 229, 0.441);
+    max-height: 0;
+    overflow: hidden;
+}
+.faq-answer-content{
+    padding: 0 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+.faq-item input[type="checkbox"]:checked~.faq-question:after{
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.faq-item input[type="checkbox"]:checked~.faq-answer{
+    max-height: 500px;
+    padding: 20px 0;
+    
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+}

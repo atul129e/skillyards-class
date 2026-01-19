@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(33, 32, 32);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+    width: 60px;
+}
+.container{
+
+    width: 650px;
+}
+h2{
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+}
+h5{
+    color: rgb(181, 174, 213);
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+.Shahrukh{
+    display: flex;
+    align-items: center;
+}
+.Salman{
+    display: flex;
+    align-items: center;
+    
+}
+img{
+    margin: 15px;
+}
+pre{
+    height: 30vh;
+    width: 2px;
+    background-color: rgb(169, 169, 169);
+}
+#pre{
+    height: 100vh;
+    width: 2px;
+    background-color: rgb(165, 165, 165);
+}
+#line{
+       height: 37vh;
+    width: 2px;
+    background-color: rgb(165, 165, 165);
+}
