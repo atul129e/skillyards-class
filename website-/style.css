@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 222, 239);
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.content{
+    
+    background: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+
+    width: 280px;
+    height: auto;
+padding-bottom: 20px;
+}
+img{
+    width: 280px;
+    height: 250px;
+    border-radius: 20px;
+}
+.img{
+    position: relative;
+}
+.off{
+    position: absolute;
+    border-radius: 20px;
+    background-color: red;
+    width: 90px;
+    padding: 5px;
+    top: 10px;
+    left: 5px;
+    color: white;
+    text-align: center;
+    
+}
+.line{
+    display: flex;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.cut{
+    text-decoration: line-through;
+    color: gray;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+button{
+    height: 35px;
+    border: none;
+
+    width: 95%;
+    margin: 2.5%;
+    background: blue;
+    border-radius: 10px;
+    color: white;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.p{
+    color: yellow;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+h5{
+    color: gray;
+    font-size: 15px;
+margin-left: 10px;
+}
+h4{
+    font-size: 18px;
+margin: 10px; 
+}
+
+.main{
+    width: 75%;
+    margin-left: 13%;
+    margin-top: 100px;
+    
+}
+ button{
+        cursor: pointer;
+    }
+    button:hover{
+        color: aqua;
+    }
+    button:active{
+        background-color: rgb(93, 87, 87);
+    }
+    a{
+        cursor: pointer;
+    }
